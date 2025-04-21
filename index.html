@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FocusZen</title>
+    <link rel="icon" type="image/x-icon" href="leaf.png" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>FocusZen 🍃</h1>
+      <div id="timer">25:00</div>
+      <div>
+        <button class="buttonStart" onclick="startTimer()">Démarrer</button>
+        <button class="buttonRemake" onclick="resetTimer()">
+          Réinitialiser
+        </button>
+      </div>
+      <div class="quote" id="quote">
+        "La concentration est la clé de l'efficacité."
+      </div>
+    </div>
+
+    <audio id="ambient" loop></audio>
+
+    <script src="script.js"></script>
+  </body>
+</html>
